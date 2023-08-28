@@ -18,9 +18,11 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'xynpv1%$lfkpck=c=g-x6iv3ct--(t=y=#n%0lf2(isaubdjr_'
 
 
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
+    'www.pasher.pythonanywhere.com',
+    'pasher.pythonanywhere.com',
     'localhost',
     '127.0.0.1',
     '[::1]',
